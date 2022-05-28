@@ -1,4 +1,4 @@
-with open("passB.txt", "w+") as file:
+with open("passA.txt", "w+") as file:
         i = 3
         while i <= 8:
             for x in permutations(["1","2","3","8","9","9","almz","ALMZ"], i):
